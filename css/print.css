@@ -1,0 +1,30 @@
+/* --- Печать --- */
+@media print {
+    body * {
+        visibility: hidden;
+    }
+
+    .main, .main * {
+        visibility: visible;
+    }
+
+    .main {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .main {
+        background-color: transparent;
+        box-shadow: none;
+        padding: 0;
+        margin: 0;
+        max-width: none;
+        max-height: none;
+    }
+
+    .animated-link::after,
+    .copy-text {
+        display: none;
+    }
+}

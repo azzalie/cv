@@ -4,7 +4,6 @@
     border-radius: 2px;
     box-shadow: 0 4px 10px var(--gray-400);
     padding: 60px;
-    margin: 12vh auto;
     max-width: 800px;
     display: flex;
     flex-direction: column;

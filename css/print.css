@@ -1,6 +1,6 @@
 /* --- Печать --- */
 @media print {
-    body * {
+    html, body, .wrapper * {
         visibility: hidden;
     }
 

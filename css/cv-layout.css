@@ -283,7 +283,7 @@ strong {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 10px;
+    gap: 20px;
 }
 
 .project-header h3 {

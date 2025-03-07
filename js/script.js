@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "@type": "Person",
         "name": "Павел Михеев",
         "jobTitle": "Frontend/Backend-разработчик",
+        "url": "https://azzalie.github.io/cv/",
         "sameAs": [
             "https://t.me/azzalie",
             "https://github.com/azzalie",

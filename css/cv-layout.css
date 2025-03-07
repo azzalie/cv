@@ -32,7 +32,8 @@ section {
 }
 
 .animated-link,
-.contact-container a {
+.contact-container a,
+.projects-container a {
     font-family: var(--font-monospace), monospace;
     color: var(--gray-700);
     position: relative;
@@ -54,7 +55,8 @@ section {
 }
 
 .animated-link:hover,
-.contact-container a:hover {
+.contact-container a:hover,
+.projects-container a:hover {
     color: var(--gray-800);
 }
 
@@ -281,6 +283,7 @@ strong {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .project-header h3 {
@@ -292,6 +295,9 @@ strong {
     font-size: 0.9em;
     position: relative;
     text-decoration: none;
+    display: inline-block;
+    align-self: flex-start;
+    line-height: normal;
 }
 
 .project-card p {
